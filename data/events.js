@@ -43,6 +43,37 @@ window.eventData = [
     access: 'free',
   },
   {
+    title: 'International Security Expo (ISE)',
+    start: '2025-09-30',
+    end: '2025-10-01',
+    sector: ['public sector', 'security'],
+    location: 'Olympia London',
+    description:
+      'Global security showcase spanning counter-terror, border protection, and resilience technologies for public safety leaders.',
+    website: 'https://www.internationalsecurityexpo.com',
+    access: 'free',
+  },
+  {
+    title: 'Cyber Security EXPO (Careers Fair)',
+    start: '2025-10-23',
+    sector: ['security', 'cyber'],
+    location: 'QEII Centre, Westminster',
+    description:
+      'Recruitment expo connecting cyber security specialists with employers hiring for defence, government, and commercial roles.',
+    website: 'https://www.cybersecurityexpo.co.uk/london',
+    access: 'free',
+  },
+  {
+    title: 'Security Cleared EXPO (Careers Fair)',
+    start: '2025-10-23',
+    sector: ['security', 'defence'],
+    location: 'QEII Centre, Westminster',
+    description:
+      'Career fair dedicated to security-cleared professionals exploring roles across defence, intelligence, and national infrastructure.',
+    website: 'https://www.securityclearedexpo.com/london',
+    access: 'free',
+  },
+  {
     title: 'FS-ISAC FinCyber Today UK',
     start: '2025-11-03',
     end: '2025-11-04',
@@ -63,6 +94,17 @@ window.eventData = [
       'Built environment expo showcasing intelligent estates, building automation, and net-zero retrofit technology.',
     website: 'https://smartbuildingsshow.com',
     access: 'free',
+  },
+  {
+    title: 'Enabling Better Infrastructure International Conference',
+    start: '2025-10-10',
+    sector: ['infrastructure', 'engineering'],
+    location: 'ICE, One Great George Street, London',
+    description:
+      'Institution of Civil Engineers forum on delivering sustainable, resilient infrastructure through better governance and project delivery.',
+    website:
+      'https://www.ice.org.uk/events/upcoming-events/enabling-better-infrastructure-international-conference',
+    access: 'paid',
   },
   {
     title: 'EMEX – Energy Management Expo',
@@ -109,6 +151,17 @@ window.eventData = [
     access: 'free',
   },
   {
+    title: 'London Packaging Week',
+    start: '2025-10-15',
+    end: '2025-10-16',
+    sector: ['manufacturing', 'packaging'],
+    location: 'ExCeL London',
+    description:
+      'Packaging innovation festival covering luxury, beauty, FMCG, and sustainable materials across co-located events.',
+    website: 'https://www.londonpackagingweek.com',
+    access: 'free',
+  },
+  {
     title: 'Air & Missile Defence Technology',
     start: '2025-11-03',
     end: '2025-11-05',
@@ -118,6 +171,17 @@ window.eventData = [
       'Specialist conference on integrated air and missile defence programmes, counter-UAS, and allied interoperability.',
     website:
       'https://www.smgconferences.com/defence/uk/conference/Air-Missile-Defence',
+    access: 'paid',
+  },
+  {
+    title: 'MRO Europe',
+    start: '2025-10-14',
+    end: '2025-10-16',
+    sector: ['defence', 'aerospace'],
+    location: 'ExCeL London',
+    description:
+      'Aviation Week conference and exhibition for commercial aviation maintenance, repair, and overhaul leaders across EMEA.',
+    website: 'https://mroeurope.aviationweek.com',
     access: 'paid',
   },
   {
@@ -206,6 +270,30 @@ window.eventData = [
     description:
       'Flagship fintech exhibition on digital banking, payments, Web3 infrastructure, and cybersecurity.',
     website: 'https://www.fintechconnect.com',
+    access: 'paid',
+  },
+  {
+    title: 'London Fintech Summit',
+    start: '2025-10-06',
+    end: '2025-10-07',
+    sector: ['fintech', 'finance', 'blockchain'],
+    location: 'Park Plaza Victoria, London',
+    description:
+      'techUK summit convening financial services leaders on digital innovation, regulation, and fintech collaboration.',
+    website:
+      'https://www.techuk.org/what-we-deliver/events/london-fintech-summit.html',
+    access: 'paid',
+  },
+  {
+    title: 'FinTech LIVE London',
+    start: '2025-10-07',
+    end: '2025-10-08',
+    sector: ['fintech', 'finance', 'blockchain'],
+    location: '155 Bishopsgate, London',
+    description:
+      'BizClik Media event spotlighting fintech transformation, insurtech disruption, and digital banking strategy.',
+    website:
+      'https://fintechmagazine.com/events/fintech-live/fintech-live-london-2025',
     access: 'paid',
   },
   {

@@ -262,6 +262,18 @@ function refreshUpcomingList() {
 }
 
 function initCalendar() {
+  if (!window.FullCalendar || !window.FullCalendar.Calendar) {
+    const errorMessage = document.createElement('p');
+    errorMessage.className = 'calendar-error';
+    errorMessage.textContent =
+      'The calendar could not load. Please check your connection and reload the page.';
+    calendarEl.setAttribute('role', 'alert');
+    calendarEl.innerHTML = '';
+    calendarEl.appendChild(errorMessage);
+    console.error('FullCalendar library failed to load.');
+    return;
+  }
+
   calendar = new FullCalendar.Calendar(calendarEl, {
     initialView: 'dayGridMonth',
     height: 'auto',

@@ -135,6 +135,17 @@ section h2 {
   border: 1px solid var(--border);
 }
 
+.calendar-error {
+  background: #fff3cd;
+  border: 1px solid #ffe69c;
+  border-radius: 0.75rem;
+  color: #664d03;
+  font-weight: 600;
+  margin: 0;
+  padding: 1rem 1.25rem;
+  text-align: center;
+}
+
 .fc-theme-standard .fc-scrollgrid {
   border-radius: 0.75rem;
   border: none;

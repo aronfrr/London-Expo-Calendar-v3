@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>London Expo Calendar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>London Expo &amp; Conference Calendar</h1>
+        <p>
+          Explore upcoming conferences, trade shows, and expos taking place in
+          London across key sectors including manufacturing, aerospace, space,
+          automotive, engineering, security, cyber, defence, infrastructure,
+          construction, energy, renewables, public sector, life sciences,
+          fintech, finance, and blockchain.
+        </p>
+      </div>
+    </header>
+    <main class="container">
+      <section class="filters" aria-labelledby="filter-heading">
+        <h2 id="filter-heading">Filter by Sector</h2>
+        <p>Select one or more sectors to focus on events most relevant to you.</p>
+        <div id="sector-filters" class="filter-grid" role="group" aria-label="Sector filters"></div>
+        <button id="reset-filters" class="reset-button" type="button">
+          Reset filters
+        </button>
+      </section>
+
+      <section class="calendar-section" aria-labelledby="calendar-heading">
+        <div class="calendar-and-details">
+          <div class="calendar-container">
+            <h2 id="calendar-heading">Calendar View</h2>
+            <div id="calendar" aria-label="Calendar of London expos"></div>
+          </div>
+          <aside class="details" aria-live="polite">
+            <h2>Event Details</h2>
+            <p>Select an event to view more information.</p>
+            <div id="event-details" class="event-details"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="upcoming" aria-labelledby="upcoming-heading">
+        <h2 id="upcoming-heading">Upcoming Highlights</h2>
+        <p>
+          Browse a chronological list of upcoming events. Filter selections are
+          applied to this list as well.
+        </p>
+        <div id="upcoming-list" class="upcoming-list" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>
+          Event information is subject to change. Please confirm details with
+          the organiser before travelling.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js" crossorigin="anonymous"></script>
+    <script src="data/events.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

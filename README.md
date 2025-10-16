@@ -53,7 +53,7 @@ static hosting provider by uploading the repository contents.
 - Add or update events by editing the array. Sector filters populate
   automatically based on the tags you provide.
 - The dataset in this repository was refreshed with publicly available
-  organiser information in May 2024. Always confirm dates and venues with the
+  organiser information in July 2025. Always confirm dates and venues with the
   official event website before publishing changes.
 
 ## License

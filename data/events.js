@@ -1,4 +1,4 @@
-const events = [
+const EVENT_DATA = [
   {
     title: "Surface Design Show",
     start: "2026-02-03",
@@ -20,16 +20,6 @@ const events = [
     link: "https://www.cybersecuritycloudexpo.com/global/"
   },
   {
-    title: "The Next Phase of UK Cyber Strategy (Panel)",
-    start: "2026-02-10",
-    end: "2026-02-10",
-    sector: "Cyber Security",
-    location: "RUSI, Whitehall",
-    access: "Paid",
-    description: "High-level panel discussion with security experts regarding the National Cyber Strategy launch.",
-    link: "https://rusi.org/events/members-events"
-  },
-  {
     title: "DGI - Defence Geospatial Intelligence",
     start: "2026-02-23",
     end: "2026-02-25",
@@ -40,44 +30,14 @@ const events = [
     link: "https://dgi.wbresearch.com/"
   },
   {
-    title: "BMF Parliamentary Reception",
-    start: "2026-02-25",
-    end: "2026-02-25",
-    sector: "Infrastructure",
-    location: "House of Commons, Terrace Pavilion",
-    access: "Invite Only",
-    description: "Exclusive networking for leaders in building materials and infrastructure with UK policymakers.",
-    link: "https://www.bmf.org.uk/"
-  },
-  {
-    title: "Securing UK Critical Supply Chains (Whitehall Briefing)",
-    start: "2026-03-03",
-    end: "2026-03-03",
-    sector: "Public Sector",
-    location: "Whitehall, London",
-    access: "Invite Only",
-    description: "Executive briefing on securing national supply chains in a volatile geopolitical climate.",
-    link: "https://rusi.org/events/"
-  },
-  {
     title: "Tech Show London",
     start: "2026-03-04",
     end: "2026-03-05",
     sector: "Cyber Security",
     location: "ExCeL London",
     access: "Free",
-    description: "Massive cluster event including Cloud Expo Europe, Cyber Security Expo, and Big Data & AI World.",
+    description: "Massive cluster event including Cloud Expo Europe and Cyber Security Expo.",
     link: "https://www.techshowlondon.co.uk/"
-  },
-  {
-    title: "Combat Air Power Conference 2026",
-    start: "2026-03-12",
-    end: "2026-03-12",
-    sector: "Aerospace",
-    location: "Central London",
-    access: "Paid",
-    description: "Conference featuring senior air force leaders and industry experts on aerospace defence and deterrence.",
-    link: "https://rusi.org/events/"
   },
   {
     title: "Climate Technology Show",
@@ -86,17 +46,17 @@ const events = [
     sector: "Renewables",
     location: "ExCeL London",
     access: "Free",
-    description: "Showcasing renewable energy innovations, ESG, and sustainable manufacturing technologies.",
+    description: "Showcasing renewable energy innovations and sustainable manufacturing.",
     link: "https://climatetechshow.com/"
   },
   {
-    title: "London Defence Conference (LDC) 2026",
+    title: "London Defence Conference 2026",
     start: "2026-04-10",
     end: "2026-04-11",
     sector: "Defence",
     location: "Bush House, King's College London",
     access: "Invite Only",
-    description: "Premier geopolitical gathering featuring the Chairman's Dinner and closed-session roundtables.",
+    description: "Premier geopolitical gathering featuring closed-session roundtables.",
     link: "https://londondefenceconference.com/"
   },
   {
@@ -106,37 +66,17 @@ const events = [
     sector: "Fintech",
     location: "The Guildhall",
     access: "Paid",
-    description: "The flagship summit for the global FinTech ecosystem during UK FinTech Week.",
+    description: "The flagship summit for the global FinTech ecosystem.",
     link: "https://www.innovatefinance.com/ifgs2026/"
   },
   {
-    title: "Talent Tech Leaders Dinner",
-    start: "2026-04-22",
-    end: "2026-04-22",
-    sector: "Fintech",
-    location: "Central London",
-    access: "Invite Only",
-    description: "A private dinner for technology leaders exploring AI and value creation in financial services.",
-    link: "https://www.eventbrite.co.uk/"
-  },
-  {
-    title: "TheCityUK International Conference 2026",
-    start: "2026-04-23",
-    end: "2026-04-23",
-    sector: "Finance",
-    location: "Convene, 200 Aldersgate",
-    access: "Paid",
-    description: "Panels featuring industry CEOs on the UK's role in the global financial ecosystem.",
-    link: "https://www.thecityuk.com/events/"
-  },
-  {
-    title: "Innovation Zero: Energy Transition",
+    title: "Innovation Zero",
     start: "2026-04-28",
     end: "2026-04-29",
     sector: "Energy",
     location: "Olympia London",
     access: "Paid",
-    description: "A major congress focusing on global decarbonisation and the low-carbon economy transition.",
+    description: "A major congress focusing on global decarbonisation.",
     link: "https://www.innovationzero.com/"
   },
   {
@@ -146,7 +86,7 @@ const events = [
     sector: "Renewables",
     location: "ExCeL London",
     access: "Free",
-    description: "The UK's largest event dedicated to solar energy and battery storage technology.",
+    description: "The UK's largest event for solar energy and battery storage.",
     link: "https://www.terrapinn.com/exhibition/solar-storage-live-london/"
   }
 ];

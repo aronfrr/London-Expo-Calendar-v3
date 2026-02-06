@@ -1,10 +1,4 @@
-/* London Expo Calendar - Event Data
-  Target Sectors: Manufacturing, Defence, Aerospace, Automotive, Infrastructure, 
-  Energy, Renewables, Public Sector, Cyber Security, Life Sciences, Fintech, Finance, Blockchain.
-*/
-
-const EVENT_DATA = [
-  // --- FEBRUARY 2026 ---
+const events = [
   {
     title: "Surface Design Show",
     start: "2026-02-03",
@@ -55,8 +49,6 @@ const EVENT_DATA = [
     description: "Exclusive networking for leaders in building materials and infrastructure with UK policymakers.",
     link: "https://www.bmf.org.uk/"
   },
-
-  // --- MARCH 2026 ---
   {
     title: "Securing UK Critical Supply Chains (Whitehall Briefing)",
     start: "2026-03-03",
@@ -97,8 +89,6 @@ const EVENT_DATA = [
     description: "Showcasing renewable energy innovations, ESG, and sustainable manufacturing technologies.",
     link: "https://climatetechshow.com/"
   },
-
-  // --- APRIL 2026 ---
   {
     title: "London Defence Conference (LDC) 2026",
     start: "2026-04-10",
